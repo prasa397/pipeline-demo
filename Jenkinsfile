@@ -2,7 +2,7 @@ node() {
    def mvnHome
    stage('Preparation') { 
       
-      git 'https://github.com/devopsguru91/simple-maven-project-with-tests'
+      git 'https://github.com/prasa397/pipeline-demo.git'
                 
       mvnHome = tool 'M3'
    }
